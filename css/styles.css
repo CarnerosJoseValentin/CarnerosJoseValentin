@@ -1,37 +1,239 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 
-#name{
-   
-    padding-top: 250px;
-
-    
+html, body{
+    height: 100%;
+    width: 100%;
 }
+
+/*------------- ENCABEZADO------------*/
 
 header{
     height: 600px;
     background-image: url(../images/PortadaBanner.jpg);
     background-size: cover;
     background-position: 35% 50%;
+    background-attachment: fixed;
+    max-width: 100%;
+    
 }
 
-h1{
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+#name{
+    color: black;
+    margin-top: 180px;
+}
+
+
+
+.h1{
     font-weight: 300;
     line-height: 1.2;
     font-family: 'Rubik', sans-serif;
-    font-size: 9rem;
+    font-size: 25vh;
 }
-h2{
-    font-size: 9rem;
+
+.h2{
+    font-size: 22vh;
     font-weight: 300;
     line-height: 0.5;
 }
 
-h3{
-    font-size: 2.5rem;
+.h3{
+    font-size: 6vh;
     font-weight: 300;
     line-height: 0;
 }
+ 
+nav{
+    height: 70px;
+    position: fixed;
+
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.twitter{
+    background-image: url(../images/twitter.svg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+
+}
+
+.facebook{
+    background-image: url(../images/facebook.svg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+
+}
+
+.instagram{
+    background-image: url(../images/instagram.svg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+
+}
+
+/*------------- CUERPO------------*/
+
+#aboutme{
+    margin-top: 80px;
+}
+
+#photocomplete{
+    width: 420px;
+    height: 600px;
+}
+
+#col2{
+    margin-top: 90px;
+    justify-content: center;
+}
+
+
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+#description{
+    margin-top: 100px;
+    
+}
+
+h5{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+img{
+    width: 259px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+/*------------- FOOTER------------*/
+
+footer{
+    width: 100%;
+}
+
+.footer-container{
+    width: 100%;
+    background: #ea899a;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-main{
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna{
+    width: calc(100%/3);
+    text-align: justify;
+}
+
+.footer-main .footer-columna:nth-child(2){
+    padding: 0px 40px;
+}
+
+.footer-main .footer-columna p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.footer-copy-name{
+    width: 100%;
+    background: #ea899a;
+    border-top: 1px solid white;
+}
+
+.main-copy-name{
+    width: 98%;
+    max-width: 1000px;
+    padding: 15px 0px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-copy-name .footer-copy{
+    width: 70%;
+    
+}
+
+/*------------- GALERY PAGE------------*/
+
+.h1-1{
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.album{
+    margin-top: 50px;
+}
+
+/*------------- CONTACT PAGE------------*/
+
+.container-form{
+    margin: 40px auto;
+}
+
+.lenght{
+    width: 300px;
+}
+
+.back{
+    background: rgb(224, 220, 220);
+    margin: 5px 0px;
+}
+
+.space{
+    margin: 25px 0px;
+    font-size: 30px;
+}
+
+
+
+/* 
+2. Efecto de resaltar cuando el mouse pase por el navbar 
+3. Bajar el banner con el scroll
+4 Checar que todo sea responisve
+5. boton ir al cielo en footer
+6. alinear los textos de las columnas del footer
+
+8. poner videos en la seccion my programs
+9.poner la linea en las letras de los titulares
+
+*/
